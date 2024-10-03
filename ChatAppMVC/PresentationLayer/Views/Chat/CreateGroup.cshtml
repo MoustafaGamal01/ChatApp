@@ -1,0 +1,114 @@
+﻿@model GroupChatViewModel
+@{
+    SelectList chatUsers = new SelectList(ViewBag.Friends, "Id", "UserName");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Group Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .create-group-container {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+            .create-group-container h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .form-group input[type="text"],
+            .form-group select {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+        .create-group-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+            .create-group-btn:hover {
+                background-color: #0056b3;
+            }
+
+        #chatWindow {
+            display: none;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        #messagesList {
+            height: 300px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+
+        #messageInput {
+            width: calc(100% - 70px);
+            padding: 5px;
+        }
+
+        #sendButton {
+            width: 60px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form asp-action="CreateGroup" asp-controller="Chat" method="post" enctype="multipart/form-data">
+        <div class="create-group-container">
+            <h2>Create a New Group Chat</h2>
+
+            <div class="form-group">
+                <label for="ChatName">Group Name</label>
+                <input id="ChatName" name="ChatName" type="text" placeholder="Enter group name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ChatUsers">Add Users</label>
+                <select id="ChatUsers" name="ChatUsersIds" multiple required>
+                    @foreach (var friend in ViewBag.Friends)
+                    {
+                        <option value="@friend.Id">@friend.Username</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="file"><strong>Profile Picture</strong></label>
+                <input id="file" name="file" type="file" class="form-control" />
+            </div>
+            <button type="submit" class="create-group-btn">Create Group</button>
+
+        </div>
+    </form>
+</body>
+</html>

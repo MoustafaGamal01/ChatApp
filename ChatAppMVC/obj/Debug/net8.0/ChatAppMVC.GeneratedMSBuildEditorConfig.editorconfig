@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ChatAppMVC
+build_property.RootNamespace = ChatAppMVC
+build_property.ProjectDir = C:\Users\AIA\Desktop\ChatAppMVC\ChatAppMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\AIA\Desktop\ChatAppMVC\ChatAppMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Auth/LoginForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQXV0aFxMb2dpbkZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Auth/RegisterForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQXV0aFxSZWdpc3RlckZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Chat/CreateGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQ2hhdFxDcmVhdGVHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Chat/OpenChat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQ2hhdFxPcGVuQ2hhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Chat/OpenGroupChat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcQ2hhdFxPcGVuR3JvdXBDaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Role/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcUm9sZVxBZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/User/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcVXNlclxBZGRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AIA/Desktop/ChatAppMVC/ChatAppMVC/PresentationLayer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJlc2VudGF0aW9uTGF5ZXJcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9exfhqlqx7

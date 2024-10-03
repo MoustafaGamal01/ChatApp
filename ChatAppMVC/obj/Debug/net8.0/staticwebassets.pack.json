@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ChatAppMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ChatAppMVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\1stDiagram.png",
+      "PackagePath": "staticwebassets\\images\\1stDiagram.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\3e094e82-02cb-45d2-8478-2f010e9201d8.png",
+      "PackagePath": "staticwebassets\\images\\3e094e82-02cb-45d2-8478-2f010e9201d8.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\51ca9326-bb43-49bc-9e4c-5816d0804f34.jpg",
+      "PackagePath": "staticwebassets\\images\\51ca9326-bb43-49bc-9e4c-5816d0804f34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\9f95a6f0-cacb-48fe-8c7e-61b553032320.jpg",
+      "PackagePath": "staticwebassets\\images\\9f95a6f0-cacb-48fe-8c7e-61b553032320.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\Champs.jpg",
+      "PackagePath": "staticwebassets\\images\\Champs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\EmptyProfilePic.jpeg",
+      "PackagePath": "staticwebassets\\images\\EmptyProfilePic.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\GD8OQTjW4AA1f6F.jpeg",
+      "PackagePath": "staticwebassets\\images\\GD8OQTjW4AA1f6F.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\IMG20220201132842.png",
+      "PackagePath": "staticwebassets\\images\\IMG20220201132842.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\PFGITHUB.png",
+      "PackagePath": "staticwebassets\\images\\PFGITHUB.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\Path on grid.txt",
+      "PackagePath": "staticwebassets\\images\\Path on grid.txt"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\Picsart_22-06-16_18-52-40-033.png",
+      "PackagePath": "staticwebassets\\images\\Picsart_22-06-16_18-52-40-033.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\Picsart_23-01-31_21-58-37-47.png",
+      "PackagePath": "staticwebassets\\images\\Picsart_23-01-31_21-58-37-47.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\a5958857-bdba-4057-9b11-465f4593c198.png",
+      "PackagePath": "staticwebassets\\images\\a5958857-bdba-4057-9b11-465f4593c198.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\b7ee944d-4580-488a-8f4f-a1bcf8971be9.jpg",
+      "PackagePath": "staticwebassets\\images\\b7ee944d-4580-488a-8f4f-a1bcf8971be9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\bcbf1d2e-b9ea-480a-970d-37e01244b3df.jpg",
+      "PackagePath": "staticwebassets\\images\\bcbf1d2e-b9ea-480a-970d-37e01244b3df.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\cat.jpg",
+      "PackagePath": "staticwebassets\\images\\cat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\champ14ns.png",
+      "PackagePath": "staticwebassets\\images\\champ14ns.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\champ14ons.png",
+      "PackagePath": "staticwebassets\\images\\champ14ons.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\f1806a2d-edb4-42b6-bf9b-f9b9c6b5469d.jpg",
+      "PackagePath": "staticwebassets\\images\\f1806a2d-edb4-42b6-bf9b-f9b9c6b5469d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\my grades.png",
+      "PackagePath": "staticwebassets\\images\\my grades.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\stark's-heart.png",
+      "PackagePath": "staticwebassets\\images\\stark's-heart.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\winner.png",
+      "PackagePath": "staticwebassets\\images\\winner.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\images\\يسيسيسيب00.51.28.png",
+      "PackagePath": "staticwebassets\\images\\يسيسيسيب00.51.28.png"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\wwwroot\\uploads\\1-be0a1689-70bb-410c-86e1-831f6b5a68d4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1-be0a1689-70bb-410c-86e1-831f6b5a68d4.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChatAppMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ChatAppMVC.props",
+      "PackagePath": "build\\ChatAppMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ChatAppMVC.props",
+      "PackagePath": "buildMultiTargeting\\ChatAppMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ChatAppMVC.props",
+      "PackagePath": "buildTransitive\\ChatAppMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

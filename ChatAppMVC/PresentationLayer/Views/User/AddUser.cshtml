@@ -1,0 +1,215 @@
+﻿@model UserInfoViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Request</title>
+    <style>
+        
+
+        .friend-card {
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            padding: 30px 20px;
+            text-align: center;
+            margin-left:450px;
+            margin-top:100px;
+            transition: transform 0.3s ease;
+        }
+
+        .friend-card:hover {
+            transform: scale(1.05);
+        }
+
+        .friend-card h4 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .friend-card h1 {
+            font-size: 28px;
+            color: #4CAF50;
+            margin: 10px 0 20px 0;
+        }
+
+        .friend-card img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border: 2px solid #4CAF50;
+        }
+
+        .friend-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 40px;
+            font-size: 18px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .friend-button:hover {
+            background-color: #45a049;
+        }
+
+        .friend-button.cancel {
+            background-color: #f44336;
+        }
+
+        .friend-button.cancel:hover {
+            background-color: #da190b;
+        }
+
+        .friend-button:disabled {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+
+        .friend-card .separator {
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="friend-card">
+        <h4>Add Friend</h4>
+        <h1>@Model.DisplayName</h1>
+        <img src="/images/@Model.ProfilePictureUrl" alt="@Model.DisplayName" />
+        <div class="separator"></div>
+        <button id="friendRequestBtn" class="friend-button" data-receiver-id="@Model.UserId" onclick="handleFriendRequest()">
+            Add Friend
+        </button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <script>
+        const button = document.getElementById('friendRequestBtn');
+        let isRequestSent = false;
+
+        // Set up SignalR connection
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/friendRequestHub")
+            .build();
+
+        connection.start().catch(err => console.error("SignalR connection error:", err));
+
+        // Handle friend request button click
+        function handleFriendRequest() {
+            const receiverId = button.getAttribute('data-receiver-id');
+            if (isRequestSent) {
+                cancelFriendRequest(receiverId);
+            } else {
+                sendFriendRequest(receiverId);
+            }
+        }
+
+        // Send friend request
+        function sendFriendRequest(receiverId) {
+            fetch(`/FriendRequest/SendFriendRequest?receiverId=${receiverId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        isRequestSent = true;
+                        updateButtonState('Pending');
+                        console.log("Friend request sent successfully");
+                    } else {
+                        console.error('Failed to send friend request:', data.message);
+                    }
+                })
+                .catch(error => console.error('Error sending friend request:', error));
+        }
+
+        // Cancel friend request
+        function cancelFriendRequest(receiverId) {
+            fetch(`/FriendRequest/CancelFriendRequest?receiverId=${receiverId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        isRequestSent = false;
+                        updateButtonState('None');
+                        console.log("Friend request cancelled successfully");
+                    } else {
+                        console.error('Failed to cancel friend request:', data.message);
+                    }
+                })
+                .catch(error => console.error('Error cancelling friend request:', error));
+        }
+
+        // Fetch friend request status on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            const button = document.getElementById('friendRequestBtn');
+            const receiverId = button.getAttribute('data-receiver-id');
+
+            fetch(`/FriendRequest/GetFriendRequestStatus?receiverId=${receiverId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        console.log("Friend request status fetched:", data.status);
+                        updateButtonState(data.status);
+                    } else {
+                        console.error('Failed to fetch friend request status:', data.message);
+                    }
+                })
+                .catch(error => console.error('Error fetching friend request status:', error));
+        });
+
+        function updateButtonState(status) {
+            const button = document.getElementById('friendRequestBtn');
+            console.log("Updating button to reflect status:", status);
+            if (status === 'Pending') {
+                button.textContent = 'Cancel Request';
+                button.classList.add('cancel');
+            } else if (status === 'Accepted') {
+                button.textContent = 'Friends';
+                button.disabled = true;
+            } else {
+                button.textContent = 'Add Friend';
+                button.classList.remove('cancel');
+            }
+        }
+
+        connection.on("ReceiveFriendRequest", (data) => {
+            console.log("Received friend request from:", data.senderName);
+        });
+
+        connection.on("FriendRequestCancelled", (senderId) => {
+            console.log("Friend request cancelled by:", senderId);
+            updateButtonState('None');
+        });
+
+        connection.on("FriendRequestAccepted", (receiverId) => {
+            console.log("Friend request accepted by:", receiverId);
+            updateButtonState('Accepted');
+        });
+
+        connection.on("FriendRequestRejected", (receiverId) => {
+            console.log("Friend request rejected by:", receiverId);
+            updateButtonState('None');
+        });
+    </script>
+</body>
+</html>
