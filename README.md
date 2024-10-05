@@ -1,4 +1,4 @@
-# ChatAppMVC
+# ChatApp
 it's a real-time chat application that allows users to send friend requests, manage chats, and engage in private a conversations. and allows system to handle sending real-time notifications. Built using modern web technologies, it provides a seamless communication platform with support for media file sharing and group chats.
 
 ## Technologies Used
