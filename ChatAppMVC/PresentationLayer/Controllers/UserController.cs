@@ -33,7 +33,7 @@ namespace ChatAppMVC.PresentationLayer.Controllers
 
             if (searchUser == null)
             {
-                return View("SearchChat", new UserInfoViewModel());
+                return View("AddUser", new UserInfoViewModel());
             }
 
             var userDto = new UserInfoViewModel

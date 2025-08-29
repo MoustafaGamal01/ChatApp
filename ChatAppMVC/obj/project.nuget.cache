@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ky2hFI4Qc8FILtdEo0V3q9OWpjHDC2e+/wQQYZmiuakTm+l+FrDkneaOOKNyUxSA7iRC1YXgFa5EAfLtuzVZSg==",
+  "dgSpecHash": "fmrdMn+2i3cSZzz4a6fZIikphxozmAXZ+NhvfLydDkhXXJ+m1EYgqcth+dlDmrw4M1W2CGHuQB+fwGXer0aqKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AIA\\Desktop\\ChatAppMVC\\ChatAppMVC\\ChatAppMVC.csproj",
+  "projectFilePath": "F:\\Programming\\- Projects\\Chat App\\ChatAppMVC\\ChatAppMVC\\ChatAppMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AIA\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\AIA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

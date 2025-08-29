@@ -1,0 +1,27 @@
+﻿version: '3.9'
+
+services:
+  chatapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"  
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__RemoteCS=Server=db8036.public.databaseasp.net;Database=db8036;User Id=db8036;Password=Z#p4%8WwzQ_6;Encrypt=False;MultipleActiveResultSets=True;
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Z#p4%8WwzQ_6
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+volumes:
+  sql_data:
